@@ -5,12 +5,30 @@ body {
 }
 
 
-button{
-    background-color: white;
-    border-color: red;
-    color: red;
+/*button{
+    background-color: red;
+    border-color: white;
+    color: white;
     font-size: 30ex;
-}
+}*/
+
+button {
+    color: #fff;
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 0;
+    background: #11a37f;
+  }
+  
+button:hover {
+    color: #fff;
+    border-top: 4px solid #0f745b;
+    border-right: 4px solid #8cf9de;
+    border-bottom: 4px solid #48ecc4;
+    border-left: 4px solid #0a5f4a;
+  }
 
 p{
     color : black;
