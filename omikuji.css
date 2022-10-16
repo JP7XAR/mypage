@@ -37,6 +37,12 @@ p{
     text-align: center;
 }
 
+p#index {
+    color : black;
+    font-size : 2.5ex;
+    font-weight: bold;
+}
+
 p#q1,#q2 {/*#○でhtmlのIDを指定することができる．また，で区切ることで複数のIDが指定できる*/
     color : black;
     font-size : 2.5ex;

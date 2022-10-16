@@ -1,0 +1,23 @@
+/*CSS‚ÌƒRƒƒ“ƒg‚Ìd•û*//**/
+body {
+    background-color: rgb(187, 255, 166);
+}
+
+p#index {
+    color : black;
+    font-size : 2.5ex;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: rgb(4, 174, 4);
+    font-size: 5ex;
+}
+
+h2{
+    font-size: 3.5ex;
+}
+
+button{
+    font-size:3ex;
+}
