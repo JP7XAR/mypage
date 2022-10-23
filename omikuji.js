@@ -16,7 +16,7 @@ function question(){
     }
 
     count++;
-    if(count==10){
+    if(count==20){
         window.alert("ご登録ありがとうございました");
         window.location="http://kentaro-shimizu.com/lecture/fraud/complete.shtml";
     }
