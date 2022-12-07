@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scam.css">
+    <title>登録完了</title>
+    <script src="./scam.js"></script>
+</head>
+
+<body>
+    <h1>ワンクリック詐欺体験サイト</h1>
+    <h2>ご登録ありがとうございました</h2>
+    <p>こちらはワンクリック詐欺体験サイトです．以下の内容をもとにアカウント登録が完了しました．<br><b>登録料100,000円</b>を二日以内に下記口座までにお振込みくださいますようお願いします．
+        <br>なお期限までにお振込みいただけなかった場合<b>IPアドレスをもとにお客様へ法的措置を取らせていただきます．</b><br>予めご了承下さいませ。</p>
+
+    <table>
+        <tr>
+            <th>ご登録日時</th><td id="date"></td><!--accessdat.innerHTMLの文字列を表示-->
+        </tr>
+        <tr>
+            <th>IPアドレス</th><td><?php echo $_SERVER['REMOTE_ADDR'];?></td><!--IPアドレスを表示-->
+        </tr>
+        <tr>
+            <th>現在ご利用のブラウザ</th><td id="browser"></td><!--browser.innerHTMLの文字列を表示-->
+    </table>
+
+    <br>
+    振込先口座
+    <table>
+        <tr>
+            <th>銀行名</th><td>ワンクリ詐欺体験銀行</td>
+        </tr>
+            <th>支店名</th><td>体験支店</td>
+        <tr>
+            <th>口座番号</th><td>普) 12345</td>
+        </tr>
+            <th>口座名義</th><td>タイケン　サイト</td>
+        </tr>
+    </table>
+
+    <p><button type="button" onclick="paying()">支払いページはこちらから</button></p>
+</body>

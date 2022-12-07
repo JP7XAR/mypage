@@ -1,0 +1,58 @@
+/*CSSのコメントの仕方*//**/
+body {
+    /*background-image: url("素材/wallpaper.jpg")*/
+    background-color: rgb(187, 255, 166);
+}
+
+input#correct{
+    background-color: white;
+    border-color: red;
+    color: red;
+    font-size: 30ex;
+}
+
+input{
+font-size:2em;
+}
+
+p{
+    color : black;
+    font-size : 2.5ex;
+    font-weight: bold;
+vertical-align : top;
+    text-align: center;
+}
+
+p#q1,#q2 {/*#○でhtmlのIDを指定することができる．また，で区切ることで複数のIDが指定できる*/
+    color : black;
+    font-size : 2.5ex;
+    font-weight: bold;
+}
+
+h1{
+    background-color: rgb(4, 174, 4);
+    font-size: 5ex;
+}
+
+h2{
+    font-size: 3.5ex;
+}
+
+button{
+    font-size:3ex;
+    
+}
+
+button#index{
+     width: 8em;
+    height: 8em;
+vertical-align : top;
+}
+
+b{
+    color:red;
+}
+
+div#login {
+    text-align: center;
+}
