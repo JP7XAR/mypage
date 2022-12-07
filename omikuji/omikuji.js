@@ -18,7 +18,7 @@ function question(){
     count++;
     if(count==20){
         window.alert("ご登録ありがとうございました");
-        window.location="scam.html";
+        window.location="../scam/scam.html";
     }
 
 }
