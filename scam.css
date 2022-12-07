@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+    border-color: white;
+}
+
+th, td {
+    border: solid 1px white; /* 線の種類 太さ 色 */
+  }
+
+th {
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+b{
+    color:red;
+}
