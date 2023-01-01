@@ -11,9 +11,9 @@ function getgyro(){
         str += 'y = ' + y + '\n';
         str += 'z = ' + z + '\n';
     
-        //alert(str);
+        alert(str);
     }, false);
-    gyro.innerHTML=str
+    gyro.innerHTML="ssss"
 }
 
 window.onload=function(){
