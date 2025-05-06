@@ -18,6 +18,13 @@ function getbrowser(){
     browser.innerHTML=ua;//scam.phpに文字列を送信
 }
 
+fetch('https://ipinfo.io/json?token=YOUR_ACCESS_TOKEN')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('ip-address').innerText = `Your IP Address: ${data.ip}`;
+  })
+  .catch(error => console.error('Error fetching IP:', error));
+
 window.onload=function(){
     //MoveCheck();
     window.alert("登録完了しました");//ポップアップを表示
