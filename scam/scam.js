@@ -22,7 +22,7 @@ function getipaddr(){
     fetch("https://ipinfo.io?callback")
         .then(response => response.json())
         .then(data => {
-            document.getElementById('ip-address').innerText = `Your IP Address: ${data.ip}`;
+            document.getElementById('ip-address').innerText = `${data.ip}`;
         })
         .catch(error => console.error('Error fetching IP:', error));
 }
