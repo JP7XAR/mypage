@@ -19,7 +19,7 @@ function getbrowser(){
 }
 
 function getipaddr(){
-    fetch('https://ipinfo.io/json?token=YOUR_ACCESS_TOKEN')
+    fetch("https://ipinfo.io?callback")
         .then(response => response.json())
         .then(data => {
             document.getElementById('ip-address').innerText = `Your IP Address: ${data.ip}`;
